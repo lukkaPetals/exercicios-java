@@ -1,5 +1,4 @@
-package br.lira.aula1;
-import br.lira.aula1.Calculadora;
+package lira.aula1;
 
 public class Main {
     public static void main(String[] args) {

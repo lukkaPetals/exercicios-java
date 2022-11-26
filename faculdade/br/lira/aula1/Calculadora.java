@@ -1,18 +1,21 @@
-package br.lira.aula1;
+package lira.aula1;
 
 public class Calculadora {
-    int soma(int num1, int num2) {
-        int soma = num1 + num2;
+    double soma(double num1, double num2) {
+        double soma = num1 + num2;
         return soma;
     }
-    int subtração(int x, int y) {
-        int sub = x - y;
+
+    double subtração(double x, double y) {
+        double sub = x - y;
         return sub;
     }
-    int multiplicacao(int x, int y) {
-        int mult = x * y;
+
+    double multiplicacao(double x, double y) {
+        double mult = x * y;
         return mult;
     }
+
     double divisao(double x, double y) {
         double div = x / y;
         return div;
